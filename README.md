@@ -8,7 +8,7 @@ Primero, actualiza tu sistema:
 sudo apt-get update 
 sudo apt-get upgrade
 
-
+pruebaprueba
 ### Requisitos Previos
 
 - *Ionic:* v8
