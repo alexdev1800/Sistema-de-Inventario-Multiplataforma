@@ -1,0 +1,56 @@
+/* Estilos globales para centrar el contenido en la pantalla */
+.ion-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f4f5f8;
+  }
+  
+  /* Estilos para el contenedor de la tarjeta de login */
+  .ion-content {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: rgb(21, 6, 233);
+    box-shadow: 0 4px 8px rgba(7, 48, 228, 0.2);
+    border-radius: 20px;
+  }
+  
+  /* Estilos para los elementos de entrada (input fields) */
+  ion-item {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para el botón */
+  ion-button {
+    margin-top: 16px;
+}
+  
+  /* Estilo del título */
+  ion-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Ajustes para dispositivos más pequeños */
+  @media (max-width: 600px) {
+    .ion-content {
+      padding: 15px;
+    }
+  
+  }
+
+  .logo {
+    width: 70px; /* Ajusta el tamaño según sea necesario */
+    height: 70px; /* Asegúrate de que sea igual a la anchura para que sea un círculo */
+    border-radius: 10%; /* Esto hace que sea redondo */
+    object-fit: cover; /* Mantiene la relación de aspecto de la imagen */
+    display: block; /* Asegúrate de que el logo esté bloqueado */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+  
