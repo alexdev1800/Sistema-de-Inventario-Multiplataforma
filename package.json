@@ -1,0 +1,44 @@
+{
+    "name": "sistema-de-inventario-multiplataforma",
+    "version": "1.0.0",
+    "description": "Proyecto de sistema de inventario multiplataforma",
+    "main": "index.js",
+    "scripts": {
+        "start": "cd frontend && npm start",
+        "start:backend": "cd backend && npm start",
+        "start:frontend": "cd frontend && npm start",
+        "build": "cd frontend && npm run build",
+        "test": "cd frontend && npm test",
+        "eject": "cd frontend && npm run eject"
+    },
+    "dependencies": {
+        "@ionic/react": "^5.0.0",
+        "@ionic/react-router": "^5.0.0",
+        "@material-ui/core": "^4.12.4",
+        "axios": "^1.7.7",
+        "react": "^17.0.0",
+        "react-dom": "^17.0.0",
+        "react-router-dom": "^6.28.0",
+        "react-scripts": "^5.0.1",
+        "sistema-de-inventario-multiplataforma": "file:",
+        "typescript": "^4.0.0"
+    },
+    "devDependencies": {
+        "@types/axios": "^0.9.36",
+        "@types/react": "^18.3.12",
+        "@types/react-dom": "^18.3.1",
+        "typescript": "^4.0.0"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
